@@ -1,0 +1,249 @@
+/**Layout Semantik**/
+
+body{
+    background: #eee;
+    color: #666;
+    font: 85%/140% Arial, Helvetica, sans-serif;
+    margin:0 auto;
+}
+
+header{
+    width: 50%;
+    height: 20px;
+    margin-left: 150px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+td{
+    padding: 10px;
+}
+
+a{
+    color: #69C;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F60;
+}
+
+h1{
+    font: 1.7em;
+    line-height:110%;
+    color:#fff;
+}
+
+h2{
+    color: #fff;
+}
+
+h3{
+    font-size:12px;
+    color: #666;
+}
+
+p{
+    margin: 0 0 20px;
+    color: #fff;
+    padding-top: 20px;
+    margin-left: 150px;
+    width: 40%;
+}
+
+footer{
+    width:100%;
+    height: 30px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 60px;
+}
+
+/**Tambahan**/
+#roof{
+width: 100%;
+height: 50px;
+position: fixed;
+background-color: #151718;
+}
+
+#webname{
+    margin-left: 100px;
+    font-size: 14px;
+    width: 85%;
+}
+
+#webname2{
+    margin-left: 100px;
+    font-size: 14px;
+    width: 85%;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#menu-btn{
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+    color: #fff;
+    margin-right: 0px;
+}
+
+#menu-btn:hover{
+    color: #69C;
+}
+
+#menu-btn2{
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 0px;
+}
+
+#menu-btn2:hover{
+    color: #69C;
+}
+
+#welcome-box{
+    width: 100%;
+    height: 240px;
+    background-color: #005960;
+    position: absolute;
+    padding-top: 80px;
+}
+
+#read-btn{
+    background-color: #4285F4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-left: 150px;
+    width: 80px;
+    color: #fff;
+}
+
+#read-btn:hover{
+    background-color: #69C;
+}
+
+#content-box{
+    width: 1030px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+#content-box2{
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+#content-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: #151718;
+    padding-top: 30px;
+}
+
+#content-text{
+    margin: 0 0 20px;
+    color: #151718;
+    padding-top: 5px;
+}
+
+#read-btn2{
+    background-color: #4285F4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-left: 120px;
+    width: 80px;
+    color: #fff;
+}
+
+#read-btn2:hover{
+    background-color: #69C;
+}
+
+#read-btn3{
+    background-color: #4285F4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    width: 80px;
+    color: #fff;
+}
+
+#read-btn3:hover{
+    background-color: #69C;
+}
+
+input[type=text] {
+    background-color:#eee;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 10px 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=email] {
+    background-color:#eee;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 10px 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=url] {
+    background-color:#eee;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 10px 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    background-color:#eee;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 10px 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#form-btn{
+    background-color: #4285F4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    width: 80px;
+    color: #fff;
+}
+
+#form-btn:hover{
+    background-color: #69C;
+}
